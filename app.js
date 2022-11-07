@@ -45,8 +45,8 @@ times.addEventListener(`click`, () => {
         alert(`You clicked the last button! Congrats!`);
     } else if (num <= 0){
         alert(`OH NO! This button is NOT going to work anymore`);
-        // times.remove();
-        times.disabled = true;
+        times.remove();
+        // times.disabled = true;
     }
 });
 
